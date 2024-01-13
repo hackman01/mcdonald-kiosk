@@ -1,0 +1,72 @@
+.home{
+  
+    text-align: center;
+    margin: 0;
+    
+}
+.container{
+    margin: auto;
+   position: relative;
+   top: 2rem;
+    padding: 20px;
+    height: 29rem;
+    width: 20rem;
+    display: block;
+    background-color: green;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    
+}
+.options{
+   position: relative;
+   top: 13rem;
+    width: 20rem;
+    height: 10rem;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.m-img{
+    height: 10rem;
+    width: 10rem;
+}
+.m{
+    margin: auto;
+    display: block;
+    font-size: 30px;
+}
+.eat-in{
+    background-color: white;
+    border-radius: 10px;
+    width: 7rem;
+    height: 7rem;
+    line-height: 0;
+    cursor: pointer;
+    transition: background-color .5s ease-out 100ms ;
+}
+.eat-in:hover{
+    background-color: rgb(233, 135, 7);
+}
+.take-out{
+    background-color: white;
+    border-radius: 10px;
+    width: 7rem;
+    height: 7rem;
+    line-height: 0;
+    cursor: pointer;
+    transition: background-color .5s ease-out 100ms ;
+}
+.take-out:hover{
+    background-color: rgb(233, 135, 7);
+}
+.meal-img{
+    height: 80px;
+    width: 100px;
+}
+.take-out-img{
+    height: 80px;
+    width: 80px;
+}

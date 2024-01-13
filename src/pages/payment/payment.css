@@ -1,0 +1,31 @@
+.home{
+  
+    text-align: center;
+    margin: 0;
+    
+}
+.payment .container{
+    text-align: center;
+    margin: auto;
+   position: relative;
+   top: 2rem;
+    padding: 20px;
+    height: 29rem;
+    width: 20rem;
+    display: block;
+    background-color: green;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    
+}
+
+.payment .options{
+    position: relative;
+    top: 0;
+}
+
+.btn{
+    padding: 10px;
+    cursor: pointer;
+}

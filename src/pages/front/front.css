@@ -1,0 +1,42 @@
+.front .container{
+    display: flex;
+    padding: 0;
+    background-color:rgb(0, 128, 0);
+   
+}
+.front-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.m{
+    height: 5rem;
+    width: auto;
+}
+.footer
+{
+    cursor: pointer;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 8rem;
+    
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 128, 0);
+    opacity: 0.7;
+    justify-content: space-between;
+    transition: background-color .3s ease-in-out 100ms ;
+}
+.footer:hover{
+    background-color: rgb(98, 170, 80);
+    opacity: 0.7;
+}
+.footer p{
+    position: relative;
+    right: 2rem;
+}
